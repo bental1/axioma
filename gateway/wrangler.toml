@@ -1,0 +1,16 @@
+name = "axioma-gateway"
+main = "src/index.js"
+compatibility_date = "2025-11-06"
+
+[[kv_namespaces]]
+binding = "KV_SUMMARIES"
+id = "b3c34e67fa7c41baa312e4fb1e781f92"
+remote = true
+
+[[services]]
+binding = "SUMMARY"
+service = "axioma-summarizer"
+
+[vars]
+WEBSITE_URL = "http://www.aisearchadvertising.com"
+LOGS_URL = "https://webhook.site/a08e459f-d835-4ba5-ad68-9f36a1a45ae1"
